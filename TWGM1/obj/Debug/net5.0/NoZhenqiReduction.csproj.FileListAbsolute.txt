@@ -1,0 +1,16 @@
+D:\TaiwuMod\Test1\build\net5.0\NoZhenqiReduction.deps.json
+D:\TaiwuMod\Test1\build\net5.0\NoZhenqiReduction.dll
+D:\TaiwuMod\Test1\build\net5.0\ref\NoZhenqiReduction.dll
+D:\TaiwuMod\Test1\build\net5.0\NoZhenqiReduction.pdb
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\NoZhenqiReduction.csprojAssemblyReference.cache
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\NoZhenqiReduction.GeneratedMSBuildEditorConfig.editorconfig
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\NoZhenqiReduction.AssemblyInfoInputs.cache
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\NoZhenqiReduction.AssemblyInfo.cs
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\NoZhenqiReduction.csproj.CoreCompileInputs.cache
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\NoZhenqiReduction.dll
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\ref\NoZhenqiReduction.dll
+G:\work\CStest\TWGM1\TWGM1\obj\Debug\net5.0\NoZhenqiReduction.pdb
+D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu\Mod\Test1\net5.0\NoZhenqiReduction.deps.json
+D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu\Mod\Test1\net5.0\NoZhenqiReduction.dll
+D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu\Mod\Test1\net5.0\ref\NoZhenqiReduction.dll
+D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu\Mod\Test1\net5.0\NoZhenqiReduction.pdb
