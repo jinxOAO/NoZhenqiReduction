@@ -1,10 +1,8 @@
 ﻿using System;
 using TaiwuModdingLib.Core.Plugin;
 using HarmonyLib;
-using GameData.Domains.Mod;
 using GameData.Domains.Combat;
 using GameData.Domains.Character;
-using GameData.Common;
 using GameData.Utilities;
 using GameData.Domains;
 
@@ -39,27 +37,6 @@ namespace NoZhenqiReduction
 
         }
 
-        //[HarmonyPostfix, HarmonyPatch(typeof(CombatCharacter), "ChangeNeiliAllocation")]
-        //public unsafe static void ZhenqiSetPostPatch(ref CombatCharacter __instance, DataContext context, byte type, int addValue, bool applySpecialEffect)
-        //{
-        //    if (!__instance.IsAlly)
-        //        return;
-        //    Traverse tr = Traverse.Create(__instance);
-        //    NeiliAllocation nl = tr.Field("_neiliAllocation").GetValue<NeiliAllocation>();
-        //    short* ptr = nl.Items;
-        //    int zq1 = *ptr;
-        //    int zq2 = *(ptr + 1);
-        //    int zq3 = *(ptr + 2);
-        //    int zq4 = *(ptr + 4);
-        //    int zq5 = *(ptr + 16);
-        //    int ipsize = IntPtr.Size;
-
-        //    AdaptableLog.Info(zq1.ToString() + " // " + zq2.ToString() + " // " + zq3.ToString() + " // " + zq4.ToString() + " // " + zq5.ToString() + " IntPtrSize = " + ipsize.ToString());
-        //    if (addValue < 0 && __instance.IsAlly)
-        //    {
-        //        __instance.ChangeNeiliAllocation(context, type, -addValue, applySpecialEffect);
-        //    }
-        //}
 
         [HarmonyPrefix, HarmonyPatch(typeof(CombatCharacterStateBase), "TimeUpdate")]
         public unsafe static bool ZhenqiReduceCompesation(ref CombatCharacter combatChar)
